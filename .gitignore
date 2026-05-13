@@ -1,0 +1,74 @@
+# ============================================
+# CAR DETECTION SYSTEM - .gitignore
+# ============================================
+
+# Trained models (too large for GitHub)
+*.pth
+*.pt
+*.bin
+*.h5
+*.onnx
+work_dirs/
+
+# Dataset (user downloads separately)
+data/
+dataset/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# MMDetection (cloned during installation)
+mmdetection/
+mmcv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+mmdet_car/
+env/
+venv/
+ENV/
+.env/
+
+# PyInstaller builds
+build/
+dist/
+*.spec
+*.exe
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+*.egg-info/
+*.egg
+
+# Logs
+*.log
+logs/
+
+# Local configuration
+*.local.py
